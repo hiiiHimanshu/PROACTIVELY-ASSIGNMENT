@@ -7,27 +7,51 @@ const HeroSection = () => {
       <div className="container">
         <div className="hero-content">
           <div className="hero-images">
-            <div className="image-grid">
-              <img 
-                src="/lovable-uploads/106f2df8-e7a9-4dcb-b795-bd5d4fa954ea.png" 
-                alt="Healthy cooking and nutrition" 
-                className="hero-image cooking-image"
-              />
-              <img 
-                src="/lovable-uploads/938c923e-fb13-4111-b9b5-f468dd8a169d.png" 
-                alt="Yoga and meditation" 
-                className="hero-image yoga-image"
-              />
-              <img 
-                src="/lovable-uploads/bcfded9f-2685-4d1b-9f6d-c354e0f62056.png" 
-                alt="Mindfulness and wellness" 
-                className="hero-image mindfulness-image"
-              />
-              <img 
-                src="/lovable-uploads/91dfaf18-b532-440a-8bbe-db17757985f5.png" 
-                alt="Active lifestyle" 
-                className="hero-image active-image"
-              />
+            <div className="image-rows">
+              <div className="image-row top-row">
+                <img 
+                  src="/lovable-uploads/106f2df8-e7a9-4dcb-b795-bd5d4fa954ea.png" 
+                  alt="Healthy cooking and nutrition" 
+                  className="hero-image"
+                />
+                <img 
+                  src="/lovable-uploads/938c923e-fb13-4111-b9b5-f468dd8a169d.png" 
+                  alt="Yoga and meditation" 
+                  className="hero-image"
+                />
+                <img 
+                  src="/lovable-uploads/106f2df8-e7a9-4dcb-b795-bd5d4fa954ea.png" 
+                  alt="Healthy cooking and nutrition" 
+                  className="hero-image"
+                />
+                <img 
+                  src="/lovable-uploads/938c923e-fb13-4111-b9b5-f468dd8a169d.png" 
+                  alt="Yoga and meditation" 
+                  className="hero-image"
+                />
+              </div>
+              <div className="image-row bottom-row">
+                <img 
+                  src="/lovable-uploads/bcfded9f-2685-4d1b-9f6d-c354e0f62056.png" 
+                  alt="Mindfulness and wellness" 
+                  className="hero-image"
+                />
+                <img 
+                  src="/lovable-uploads/91dfaf18-b532-440a-8bbe-db17757985f5.png" 
+                  alt="Active lifestyle" 
+                  className="hero-image"
+                />
+                <img 
+                  src="/lovable-uploads/bcfded9f-2685-4d1b-9f6d-c354e0f62056.png" 
+                  alt="Mindfulness and wellness" 
+                  className="hero-image"
+                />
+                <img 
+                  src="/lovable-uploads/91dfaf18-b532-440a-8bbe-db17757985f5.png" 
+                  alt="Active lifestyle" 
+                  className="hero-image"
+                />
+              </div>
             </div>
           </div>
           
