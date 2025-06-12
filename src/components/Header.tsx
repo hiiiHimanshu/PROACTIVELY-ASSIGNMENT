@@ -15,15 +15,50 @@ const Header = () => {
         </div>
         
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
-          <a href="#" className="nav-link">List your practice</a>
-          <a href="#" className="nav-link">For Employers</a>
-          <a href="#" className="nav-link">Courses</a>
-          <a href="#" className="nav-link">Books</a>
-          <a href="#" className="nav-link">Speakers</a>
-          <a href="#" className="nav-link">Doctors</a>
-          <div className="nav-auth">
-            <button className="auth-btn login-btn">Login</button>
-            <button className="auth-btn signup-btn">Sign up</button>
+          <div className="auth-section">
+            <div className="auth-group">
+              <span className="auth-label">Doctor</span>
+              <div className="auth-buttons">
+                <a href="#" className="auth-link">Login</a>
+                <a href="#" className="auth-link">Sign up</a>
+              </div>
+            </div>
+            <div className="auth-group">
+              <span className="auth-label">Patients</span>
+              <div className="auth-buttons">
+                <a href="#" className="auth-link">Login</a>
+                <a href="#" className="auth-link">Sign up</a>
+              </div>
+            </div>
+          </div>
+          
+          <div className="nav-separator"></div>
+          
+          <div className="nav-links">
+            <a href="#" className="nav-link">
+              <span>Doctors</span>
+              <span className="nav-arrow">→</span>
+            </a>
+            <a href="#" className="nav-link">
+              <span>List your practice</span>
+              <span className="nav-arrow">→</span>
+            </a>
+            <a href="#" className="nav-link">
+              <span>For Employers</span>
+              <span className="nav-arrow">→</span>
+            </a>
+            <a href="#" className="nav-link">
+              <span>Courses</span>
+              <span className="nav-arrow">→</span>
+            </a>
+            <a href="#" className="nav-link">
+              <span>Books</span>
+              <span className="nav-arrow">→</span>
+            </a>
+            <a href="#" className="nav-link">
+              <span>Speakers</span>
+              <span className="nav-arrow">→</span>
+            </a>
           </div>
         </nav>
 

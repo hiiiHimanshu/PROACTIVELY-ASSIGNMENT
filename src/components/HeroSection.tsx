@@ -9,24 +9,24 @@ const HeroSection = () => {
           <div className="hero-images">
             <div className="image-grid">
               <img 
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&h=200&fit=crop" 
-                alt="Healthy cooking" 
+                src="/lovable-uploads/106f2df8-e7a9-4dcb-b795-bd5d4fa954ea.png" 
+                alt="Healthy cooking and nutrition" 
                 className="hero-image cooking-image"
               />
               <img 
-                src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=300&h=200&fit=crop" 
+                src="/lovable-uploads/938c923e-fb13-4111-b9b5-f468dd8a169d.png" 
                 alt="Yoga and meditation" 
                 className="hero-image yoga-image"
               />
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=200&fit=crop" 
-                alt="Beach wellness" 
-                className="hero-image beach-image"
+                src="/lovable-uploads/bcfded9f-2685-4d1b-9f6d-c354e0f62056.png" 
+                alt="Mindfulness and wellness" 
+                className="hero-image mindfulness-image"
               />
               <img 
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop" 
-                alt="Doctor consultation" 
-                className="hero-image consultation-image"
+                src="/lovable-uploads/91dfaf18-b532-440a-8bbe-db17757985f5.png" 
+                alt="Active lifestyle" 
+                className="hero-image active-image"
               />
             </div>
           </div>
