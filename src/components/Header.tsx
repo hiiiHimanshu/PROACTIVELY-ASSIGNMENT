@@ -7,13 +7,6 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container">
-        <div className="nav-brand">
-          <div className="logo">
-            <span className="logo-icon">🏥</span>
-            <span className="logo-text">ProVital</span>
-          </div>
-        </div>
-        
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <div className="auth-section">
             <div className="auth-group">
@@ -61,6 +54,13 @@ const Header = () => {
             </a>
           </div>
         </nav>
+        
+        <div className="nav-brand">
+          <div className="logo">
+            <span className="logo-icon">🏥</span>
+            <span className="logo-text">ProVital</span>
+          </div>
+        </div>
 
         <button 
           className="menu-toggle"
