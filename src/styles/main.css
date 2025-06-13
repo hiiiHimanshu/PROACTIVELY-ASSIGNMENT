@@ -469,6 +469,87 @@ body {
   }
 }
 
+/* Animated Image Columns Section */
+.animated-columns-section {
+  padding: 4rem 0;
+  background: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.animated-columns-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  gap: 3rem;
+  height: 600px;
+}
+
+.image-column {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+
+.column-track {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: absolute;
+  width: 100%;
+}
+
+.track-down {
+  animation: scrollDown 25s linear infinite;
+  top: 0;
+}
+
+.track-up {
+  animation: scrollUp 25s linear infinite;
+  bottom: 0;
+}
+
+.column-image-item {
+  flex-shrink: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.column-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.column-image:hover {
+  transform: scale(1.05);
+}
+
+/* Animations for vertical scrolling */
+@keyframes scrollDown {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .hero-title {

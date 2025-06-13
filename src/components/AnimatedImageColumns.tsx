@@ -1,0 +1,75 @@
+
+import React from 'react';
+
+const AnimatedImageColumns = () => {
+  const column1Images = [
+    '/lovable-uploads/609018b6-944f-40f1-bd4b-6fa6fcaf5f51.png',
+    '/lovable-uploads/efb7811a-7520-4b7d-9b4e-cd97de08c8e7.png',
+    '/lovable-uploads/bff583c8-5e80-4cec-ab1e-4c5c56d94016.png',
+    '/lovable-uploads/f1031326-d59f-4685-bd65-3321df3a516f.png'
+  ];
+
+  const column2Images = [
+    '/lovable-uploads/331d2956-ced7-4197-8892-1f629184421e.png',
+    '/lovable-uploads/4c59bdd5-1445-4eb9-95d1-df176a6a23ed.png',
+    '/lovable-uploads/5c56c9d7-7616-43ed-8e6b-818dc83d319a.png'
+  ];
+
+  return (
+    <section className="animated-columns-section">
+      <div className="animated-columns-container">
+        <div className="image-column column-1">
+          <div className="column-track track-down">
+            {/* First set of images */}
+            {column1Images.map((src, index) => (
+              <div key={`col1-${index}`} className="column-image-item">
+                <img 
+                  src={src} 
+                  alt={`Lifestyle image ${index + 1}`}
+                  className="column-image"
+                />
+              </div>
+            ))}
+            {/* Duplicate for seamless loop */}
+            {column1Images.map((src, index) => (
+              <div key={`col1-dup-${index}`} className="column-image-item">
+                <img 
+                  src={src} 
+                  alt={`Lifestyle image ${index + 1}`}
+                  className="column-image"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="image-column column-2">
+          <div className="column-track track-up">
+            {/* First set of images */}
+            {column2Images.map((src, index) => (
+              <div key={`col2-${index}`} className="column-image-item">
+                <img 
+                  src={src} 
+                  alt={`Lifestyle image ${index + 1}`}
+                  className="column-image"
+                />
+              </div>
+            ))}
+            {/* Duplicate for seamless loop */}
+            {column2Images.map((src, index) => (
+              <div key={`col2-dup-${index}`} className="column-image-item">
+                <img 
+                  src={src} 
+                  alt={`Lifestyle image ${index + 1}`}
+                  className="column-image"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default AnimatedImageColumns;
