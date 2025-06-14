@@ -165,6 +165,7 @@ body {
   min-height: 70vh;
   display: flex;
   align-items: center;
+  margin-left: 320px; /* Add left margin to avoid overlap with animated columns */
 }
 
 .hero-content {
@@ -552,6 +553,10 @@ body {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
+  .hero {
+    margin-left: 0; /* Remove left margin on tablets */
+  }
+  
   .hero-title {
     font-size: 2.5rem;
   }
@@ -600,6 +605,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    margin-left: 0; /* Remove left margin on mobile */
+  }
+  
   .menu-toggle {
     display: flex;
   }
@@ -692,6 +701,10 @@ body {
 }
 
 @media (max-width: 480px) {
+  .hero {
+    margin-left: 0; /* Remove left margin on small mobile */
+  }
+  
   .container {
     padding: 0 15px;
   }
