@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const MovingImages = () => {
@@ -8,15 +9,6 @@ const MovingImages = () => {
     { icon: '💙', value: '121/80', unit: 'mmHg', color: 'bg-blue-500' },
     { icon: '❤️', value: '32', unit: 'minutes', color: 'bg-red-500' },
     { icon: '❤️', value: 'Feeling', unit: 'better', color: 'bg-red-500' }
-  ];
-
-  const imageTexts = [
-    { title: "Book an appointment with", subtitle: "lifestyle medicine experts" },
-    { title: "Optimize your lifestyle", subtitle: "and reverse chronic diseases" },
-    { title: "Evidence-based", subtitle: "wellness approach" },
-    { title: "Personalized care", subtitle: "for better health" },
-    { title: "Transform your", subtitle: "daily habits" },
-    { title: "Expert guidance", subtitle: "every step" }
   ];
 
   return (
@@ -30,10 +22,6 @@ const MovingImages = () => {
                 alt="Active lifestyle" 
                 className="scroll-image"
               />
-              <div className="image-text-overlay">
-                <h3 className="overlay-title">{imageTexts[0].title}</h3>
-                <p className="overlay-subtitle">{imageTexts[0].subtitle}</p>
-              </div>
               <div className={`health-badge ${healthMetrics[0].color}`}>
                 <span className="badge-icon">{healthMetrics[0].icon}</span>
                 <div className="badge-text">
@@ -49,10 +37,6 @@ const MovingImages = () => {
                 alt="Healthy cooking" 
                 className="scroll-image"
               />
-              <div className="image-text-overlay">
-                <h3 className="overlay-title">{imageTexts[1].title}</h3>
-                <p className="overlay-subtitle">{imageTexts[1].subtitle}</p>
-              </div>
               <div className={`health-badge ${healthMetrics[1].color}`}>
                 <span className="badge-icon">{healthMetrics[1].icon}</span>
                 <div className="badge-text">
@@ -68,10 +52,6 @@ const MovingImages = () => {
                 alt="Yoga and wellness" 
                 className="scroll-image"
               />
-              <div className="image-text-overlay">
-                <h3 className="overlay-title">{imageTexts[2].title}</h3>
-                <p className="overlay-subtitle">{imageTexts[2].subtitle}</p>
-              </div>
               <div className={`health-badge ${healthMetrics[2].color}`}>
                 <span className="badge-icon">{healthMetrics[2].icon}</span>
                 <div className="badge-text">
@@ -87,10 +67,6 @@ const MovingImages = () => {
                 alt="Restorative sleep" 
                 className="scroll-image"
               />
-              <div className="image-text-overlay">
-                <h3 className="overlay-title">{imageTexts[3].title}</h3>
-                <p className="overlay-subtitle">{imageTexts[3].subtitle}</p>
-              </div>
               <div className={`health-badge ${healthMetrics[3].color}`}>
                 <span className="badge-icon">{healthMetrics[3].icon}</span>
                 <div className="badge-text">
@@ -106,10 +82,6 @@ const MovingImages = () => {
                 alt="Mindfulness" 
                 className="scroll-image"
               />
-              <div className="image-text-overlay">
-                <h3 className="overlay-title">{imageTexts[4].title}</h3>
-                <p className="overlay-subtitle">{imageTexts[4].subtitle}</p>
-              </div>
               <div className={`health-badge ${healthMetrics[4].color}`}>
                 <span className="badge-icon">{healthMetrics[4].icon}</span>
                 <div className="badge-text">
@@ -125,10 +97,6 @@ const MovingImages = () => {
                 alt="Social connection" 
                 className="scroll-image"
               />
-              <div className="image-text-overlay">
-                <h3 className="overlay-title">{imageTexts[5].title}</h3>
-                <p className="overlay-subtitle">{imageTexts[5].subtitle}</p>
-              </div>
               <div className={`health-badge ${healthMetrics[5].color}`}>
                 <span className="badge-icon">{healthMetrics[5].icon}</span>
                 <div className="badge-text">
@@ -145,10 +113,6 @@ const MovingImages = () => {
                 alt="Active lifestyle" 
                 className="scroll-image"
               />
-              <div className="image-text-overlay">
-                <h3 className="overlay-title">{imageTexts[0].title}</h3>
-                <p className="overlay-subtitle">{imageTexts[0].subtitle}</p>
-              </div>
               <div className={`health-badge ${healthMetrics[0].color}`}>
                 <span className="badge-icon">{healthMetrics[0].icon}</span>
                 <div className="badge-text">
@@ -164,10 +128,6 @@ const MovingImages = () => {
                 alt="Healthy cooking" 
                 className="scroll-image"
               />
-              <div className="image-text-overlay">
-                <h3 className="overlay-title">{imageTexts[1].title}</h3>
-                <p className="overlay-subtitle">{imageTexts[1].subtitle}</p>
-              </div>
               <div className={`health-badge ${healthMetrics[1].color}`}>
                 <span className="badge-icon">{healthMetrics[1].icon}</span>
                 <div className="badge-text">
@@ -183,10 +143,6 @@ const MovingImages = () => {
                 alt="Yoga and wellness" 
                 className="scroll-image"
               />
-              <div className="image-text-overlay">
-                <h3 className="overlay-title">{imageTexts[2].title}</h3>
-                <p className="overlay-subtitle">{imageTexts[2].subtitle}</p>
-              </div>
               <div className={`health-badge ${healthMetrics[2].color}`}>
                 <span className="badge-icon">{healthMetrics[2].icon}</span>
                 <div className="badge-text">
@@ -202,10 +158,6 @@ const MovingImages = () => {
                 alt="Restorative sleep" 
                 className="scroll-image"
               />
-              <div className="image-text-overlay">
-                <h3 className="overlay-title">{imageTexts[3].title}</h3>
-                <p className="overlay-subtitle">{imageTexts[3].subtitle}</p>
-              </div>
               <div className={`health-badge ${healthMetrics[3].color}`}>
                 <span className="badge-icon">{healthMetrics[3].icon}</span>
                 <div className="badge-text">
@@ -221,10 +173,6 @@ const MovingImages = () => {
                 alt="Mindfulness" 
                 className="scroll-image"
               />
-              <div className="image-text-overlay">
-                <h3 className="overlay-title">{imageTexts[4].title}</h3>
-                <p className="overlay-subtitle">{imageTexts[4].subtitle}</p>
-              </div>
               <div className={`health-badge ${healthMetrics[4].color}`}>
                 <span className="badge-icon">{healthMetrics[4].icon}</span>
                 <div className="badge-text">
@@ -240,10 +188,6 @@ const MovingImages = () => {
                 alt="Social connection" 
                 className="scroll-image"
               />
-              <div className="image-text-overlay">
-                <h3 className="overlay-title">{imageTexts[5].title}</h3>
-                <p className="overlay-subtitle">{imageTexts[5].subtitle}</p>
-              </div>
               <div className={`health-badge ${healthMetrics[5].color}`}>
                 <span className="badge-icon">{healthMetrics[5].icon}</span>
                 <div className="badge-text">
