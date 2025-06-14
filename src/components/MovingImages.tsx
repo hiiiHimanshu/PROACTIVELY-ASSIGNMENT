@@ -1,13 +1,14 @@
+
 import React from 'react';
 
 const MovingImages = () => {
-  const healthMetrics = [
-    { icon: '💙', value: '121/80', unit: 'mmHg', color: 'bg-blue-500' },
-    { icon: '📅', value: '62', unit: 'days', color: 'bg-gray-500' },
-    { icon: '🌙', value: '8', unit: 'hours', color: 'bg-green-500' },
-    { icon: '💙', value: '121/80', unit: 'mmHg', color: 'bg-blue-500' },
-    { icon: '❤️', value: '32', unit: 'minutes', color: 'bg-red-500' },
-    { icon: '❤️', value: 'Feeling', unit: 'better', color: 'bg-red-500' }
+  const healthBadges = [
+    '/lovable-uploads/8eb52ab7-72fd-4820-8396-d3d1fcc59294.png', // 121/80 mmHg
+    '/lovable-uploads/bcbb76a7-b167-4289-8fd1-c1502db3d297.png', // 62 days
+    '/lovable-uploads/d25046bb-5e88-48e7-bd8c-cd47e1335878.png', // 8 hours
+    '/lovable-uploads/f172f719-d10b-46e4-b3ff-0aa78b4a552a.png', // 121/80 mmHg
+    '/lovable-uploads/5ef4f85f-2998-4fe8-bd08-008941c8fa0a.png', // 32 minutes
+    '/lovable-uploads/f2d12df7-bbc3-4938-aa93-afc0d31dc94c.png'  // Feeling better
   ];
 
   return (
@@ -22,12 +23,12 @@ const MovingImages = () => {
                 alt="Active lifestyle" 
                 className="scroll-image"
               />
-              <div className={`health-badge ${healthMetrics[0].color}`}>
-                <span className="badge-icon">{healthMetrics[0].icon}</span>
-                <div className="badge-text">
-                  <span className="badge-value">{healthMetrics[0].value}</span>
-                  <span className="badge-unit">{healthMetrics[0].unit}</span>
-                </div>
+              <div className="health-badge-image">
+                <img 
+                  src={healthBadges[0]} 
+                  alt="Health metric badge" 
+                  className="badge-overlay"
+                />
               </div>
             </div>
             
@@ -37,12 +38,12 @@ const MovingImages = () => {
                 alt="Healthy cooking" 
                 className="scroll-image"
               />
-              <div className={`health-badge ${healthMetrics[1].color}`}>
-                <span className="badge-icon">{healthMetrics[1].icon}</span>
-                <div className="badge-text">
-                  <span className="badge-value">{healthMetrics[1].value}</span>
-                  <span className="badge-unit">{healthMetrics[1].unit}</span>
-                </div>
+              <div className="health-badge-image">
+                <img 
+                  src={healthBadges[1]} 
+                  alt="Health metric badge" 
+                  className="badge-overlay"
+                />
               </div>
             </div>
             
@@ -52,12 +53,12 @@ const MovingImages = () => {
                 alt="Yoga and wellness" 
                 className="scroll-image"
               />
-              <div className={`health-badge ${healthMetrics[2].color}`}>
-                <span className="badge-icon">{healthMetrics[2].icon}</span>
-                <div className="badge-text">
-                  <span className="badge-value">{healthMetrics[2].value}</span>
-                  <span className="badge-unit">{healthMetrics[2].unit}</span>
-                </div>
+              <div className="health-badge-image">
+                <img 
+                  src={healthBadges[2]} 
+                  alt="Health metric badge" 
+                  className="badge-overlay"
+                />
               </div>
             </div>
             
@@ -67,12 +68,12 @@ const MovingImages = () => {
                 alt="Restorative sleep" 
                 className="scroll-image"
               />
-              <div className={`health-badge ${healthMetrics[3].color}`}>
-                <span className="badge-icon">{healthMetrics[3].icon}</span>
-                <div className="badge-text">
-                  <span className="badge-value">{healthMetrics[3].value}</span>
-                  <span className="badge-unit">{healthMetrics[3].unit}</span>
-                </div>
+              <div className="health-badge-image">
+                <img 
+                  src={healthBadges[3]} 
+                  alt="Health metric badge" 
+                  className="badge-overlay"
+                />
               </div>
             </div>
             
@@ -82,12 +83,12 @@ const MovingImages = () => {
                 alt="Mindfulness" 
                 className="scroll-image"
               />
-              <div className={`health-badge ${healthMetrics[4].color}`}>
-                <span className="badge-icon">{healthMetrics[4].icon}</span>
-                <div className="badge-text">
-                  <span className="badge-value">{healthMetrics[4].value}</span>
-                  <span className="badge-unit">{healthMetrics[4].unit}</span>
-                </div>
+              <div className="health-badge-image">
+                <img 
+                  src={healthBadges[4]} 
+                  alt="Health metric badge" 
+                  className="badge-overlay"
+                />
               </div>
             </div>
             
@@ -97,12 +98,12 @@ const MovingImages = () => {
                 alt="Social connection" 
                 className="scroll-image"
               />
-              <div className={`health-badge ${healthMetrics[5].color}`}>
-                <span className="badge-icon">{healthMetrics[5].icon}</span>
-                <div className="badge-text">
-                  <span className="badge-value">{healthMetrics[5].value}</span>
-                  <span className="badge-unit">{healthMetrics[5].unit}</span>
-                </div>
+              <div className="health-badge-image">
+                <img 
+                  src={healthBadges[5]} 
+                  alt="Health metric badge" 
+                  className="badge-overlay"
+                />
               </div>
             </div>
 
@@ -113,12 +114,12 @@ const MovingImages = () => {
                 alt="Active lifestyle" 
                 className="scroll-image"
               />
-              <div className={`health-badge ${healthMetrics[0].color}`}>
-                <span className="badge-icon">{healthMetrics[0].icon}</span>
-                <div className="badge-text">
-                  <span className="badge-value">{healthMetrics[0].value}</span>
-                  <span className="badge-unit">{healthMetrics[0].unit}</span>
-                </div>
+              <div className="health-badge-image">
+                <img 
+                  src={healthBadges[0]} 
+                  alt="Health metric badge" 
+                  className="badge-overlay"
+                />
               </div>
             </div>
             
@@ -128,12 +129,12 @@ const MovingImages = () => {
                 alt="Healthy cooking" 
                 className="scroll-image"
               />
-              <div className={`health-badge ${healthMetrics[1].color}`}>
-                <span className="badge-icon">{healthMetrics[1].icon}</span>
-                <div className="badge-text">
-                  <span className="badge-value">{healthMetrics[1].value}</span>
-                  <span className="badge-unit">{healthMetrics[1].unit}</span>
-                </div>
+              <div className="health-badge-image">
+                <img 
+                  src={healthBadges[1]} 
+                  alt="Health metric badge" 
+                  className="badge-overlay"
+                />
               </div>
             </div>
             
@@ -143,12 +144,12 @@ const MovingImages = () => {
                 alt="Yoga and wellness" 
                 className="scroll-image"
               />
-              <div className={`health-badge ${healthMetrics[2].color}`}>
-                <span className="badge-icon">{healthMetrics[2].icon}</span>
-                <div className="badge-text">
-                  <span className="badge-value">{healthMetrics[2].value}</span>
-                  <span className="badge-unit">{healthMetrics[2].unit}</span>
-                </div>
+              <div className="health-badge-image">
+                <img 
+                  src={healthBadges[2]} 
+                  alt="Health metric badge" 
+                  className="badge-overlay"
+                />
               </div>
             </div>
             
@@ -158,12 +159,12 @@ const MovingImages = () => {
                 alt="Restorative sleep" 
                 className="scroll-image"
               />
-              <div className={`health-badge ${healthMetrics[3].color}`}>
-                <span className="badge-icon">{healthMetrics[3].icon}</span>
-                <div className="badge-text">
-                  <span className="badge-value">{healthMetrics[3].value}</span>
-                  <span className="badge-unit">{healthMetrics[3].unit}</span>
-                </div>
+              <div className="health-badge-image">
+                <img 
+                  src={healthBadges[3]} 
+                  alt="Health metric badge" 
+                  className="badge-overlay"
+                />
               </div>
             </div>
             
@@ -173,12 +174,12 @@ const MovingImages = () => {
                 alt="Mindfulness" 
                 className="scroll-image"
               />
-              <div className={`health-badge ${healthMetrics[4].color}`}>
-                <span className="badge-icon">{healthMetrics[4].icon}</span>
-                <div className="badge-text">
-                  <span className="badge-value">{healthMetrics[4].value}</span>
-                  <span className="badge-unit">{healthMetrics[4].unit}</span>
-                </div>
+              <div className="health-badge-image">
+                <img 
+                  src={healthBadges[4]} 
+                  alt="Health metric badge" 
+                  className="badge-overlay"
+                />
               </div>
             </div>
             
@@ -188,12 +189,12 @@ const MovingImages = () => {
                 alt="Social connection" 
                 className="scroll-image"
               />
-              <div className={`health-badge ${healthMetrics[5].color}`}>
-                <span className="badge-icon">{healthMetrics[5].icon}</span>
-                <div className="badge-text">
-                  <span className="badge-value">{healthMetrics[5].value}</span>
-                  <span className="badge-unit">{healthMetrics[5].unit}</span>
-                </div>
+              <div className="health-badge-image">
+                <img 
+                  src={healthBadges[5]} 
+                  alt="Health metric badge" 
+                  className="badge-overlay"
+                />
               </div>
             </div>
           </div>

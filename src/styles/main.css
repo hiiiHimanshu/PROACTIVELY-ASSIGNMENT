@@ -437,6 +437,25 @@ body {
   font-weight: 500;
 }
 
+/* New styles for image-based badges */
+.health-badge-image {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.badge-overlay {
+  width: auto;
+  height: 40px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
+  transition: transform 0.3s ease;
+}
+
+.badge-overlay:hover {
+  transform: scale(1.05);
+}
+
 /* Badge color variants */
 .bg-blue-500 {
   background: rgba(59, 130, 246, 0.9);
@@ -589,6 +608,15 @@ body {
     font-size: 12px;
   }
   
+  .health-badge-image {
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .badge-overlay {
+    height: 35px;
+  }
+  
   .badge-value {
     font-size: 12px;
   }
@@ -675,6 +703,15 @@ body {
     font-size: 11px;
   }
   
+  .health-badge-image {
+    bottom: 8px;
+    left: 8px;
+  }
+  
+  .badge-overlay {
+    height: 30px;
+  }
+  
   .badge-icon {
     font-size: 14px;
   }
@@ -730,6 +767,15 @@ body {
     left: 6px;
     padding: 4px 6px;
     font-size: 10px;
+  }
+  
+  .health-badge-image {
+    bottom: 6px;
+    left: 6px;
+  }
+  
+  .badge-overlay {
+    height: 25px;
   }
   
   .badge-icon {
