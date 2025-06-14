@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const MovingImages = () => {
@@ -12,22 +11,8 @@ const MovingImages = () => {
   ];
 
   return (
-    <section className="moving-images-section relative">
-      {/* Overlapping text positioned absolute over the images */}
-      <div className="absolute inset-0 flex items-center z-10">
-        <div className="container mx-auto px-4">
-          <div className="max-w-xl bg-white/90 backdrop-blur-sm p-8 rounded-lg shadow-lg">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              Personalized care
-            </h2>
-            <p className="text-xl text-teal-600 font-medium">
-              for better health
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Moving images container with increased image size */}
+    <section className="moving-images-section">
+      {/* Moving images container */}
       <div className="moving-images-container">
         <div className="image-scroll">
           <div className="image-track">
@@ -214,8 +199,6 @@ const MovingImages = () => {
           </div>
         </div>
       </div>
-      
-      {/* Removed the separate text section that was below the moving images */}
     </section>
   );
 };
