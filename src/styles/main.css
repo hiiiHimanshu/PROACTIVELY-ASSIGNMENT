@@ -1,3 +1,4 @@
+
 /* Reset and base styles */
 * {
   margin: 0;
@@ -165,7 +166,7 @@ body {
   min-height: 70vh;
   display: flex;
   align-items: center;
-  margin-left: 320px; /* Add left margin to avoid overlap with animated columns */
+  margin-left: 420px; /* Increased left margin to accommodate larger animated columns */
 }
 
 .hero-content {
@@ -762,17 +763,17 @@ body {
   position: absolute;
   left: 0;
   top: 100px;
-  width: 300px;
-  height: 500px;
+  width: 400px; /* Increased from 300px to 400px */
+  height: 600px; /* Increased from 500px to 600px */
   overflow: hidden;
   z-index: 10;
 }
 
 .animated-columns-container-left {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem; /* Increased gap between columns */
   height: 100%;
-  padding: 0 1rem;
+  padding: 0 1.5rem; /* Increased padding */
   position: relative;
 }
 
@@ -780,20 +781,20 @@ body {
   flex: 1;
   overflow: hidden;
   position: relative;
-  border-radius: 15px;
+  border-radius: 20px; /* Increased border radius */
 }
 
 .column-image-item-small {
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 15px; /* Increased border radius */
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+  margin-bottom: 1.5rem; /* Increased margin */
 }
 
 .column-image-small {
   width: 100%;
-  height: 150px;
+  height: 200px; /* Increased from 150px to 200px */
   object-fit: cover;
   display: block;
   transition: transform 0.3s ease;
