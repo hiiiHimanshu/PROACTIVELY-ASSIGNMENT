@@ -800,7 +800,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Image Text Overlay Styles */
+/* Image Text Overlay Styles - Keeping these for other sections but not applying to left columns */
 .image-text-overlay {
   position: absolute;
   top: 50%;
