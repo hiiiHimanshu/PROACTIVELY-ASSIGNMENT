@@ -57,9 +57,9 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
-              <div className="image-text-corner">
-                <h3 className="corner-title">{imageDescriptions[0].title}</h3>
-                <p className="corner-description">{imageDescriptions[0].description}</p>
+              <div className="image-text-below">
+                <h3 className="below-title">{imageDescriptions[0].title}</h3>
+                <p className="below-description">{imageDescriptions[0].description}</p>
               </div>
             </div>
             
@@ -76,9 +76,9 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
-              <div className="image-text-corner">
-                <h3 className="corner-title">{imageDescriptions[1].title}</h3>
-                <p className="corner-description">{imageDescriptions[1].description}</p>
+              <div className="image-text-below">
+                <h3 className="below-title">{imageDescriptions[1].title}</h3>
+                <p className="below-description">{imageDescriptions[1].description}</p>
               </div>
             </div>
             
@@ -95,9 +95,9 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
-              <div className="image-text-corner">
-                <h3 className="corner-title">{imageDescriptions[2].title}</h3>
-                <p className="corner-description">{imageDescriptions[2].description}</p>
+              <div className="image-text-below">
+                <h3 className="below-title">{imageDescriptions[2].title}</h3>
+                <p className="below-description">{imageDescriptions[2].description}</p>
               </div>
             </div>
             
@@ -114,15 +114,15 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
-              <div className="image-text-corner">
-                <h3 className="corner-title">{imageDescriptions[3].title}</h3>
-                <p className="corner-description">{imageDescriptions[3].description}</p>
+              <div className="image-text-below">
+                <h3 className="below-title">{imageDescriptions[3].title}</h3>
+                <p className="below-description">{imageDescriptions[3].description}</p>
               </div>
             </div>
             
             <div className="image-item">
               <img 
-                src="/lovable-uploads/78e1de12-0600-409b-81e8-0b2a8d43b27a.png" 
+                src="/lovable-uploads/78e1de12-0600-409b-81e8-0b2b16098be6.png" 
                 alt="Mindfulness" 
                 className="scroll-image"
               />
@@ -133,9 +133,9 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
-              <div className="image-text-corner">
-                <h3 className="corner-title">{imageDescriptions[4].title}</h3>
-                <p className="corner-description">{imageDescriptions[4].description}</p>
+              <div className="image-text-below">
+                <h3 className="below-title">{imageDescriptions[4].title}</h3>
+                <p className="below-description">{imageDescriptions[4].description}</p>
               </div>
             </div>
             
@@ -152,9 +152,9 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
-              <div className="image-text-corner">
-                <h3 className="corner-title">{imageDescriptions[5].title}</h3>
-                <p className="corner-description">{imageDescriptions[5].description}</p>
+              <div className="image-text-below">
+                <h3 className="below-title">{imageDescriptions[5].title}</h3>
+                <p className="below-description">{imageDescriptions[5].description}</p>
               </div>
             </div>
 
@@ -172,9 +172,9 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
-              <div className="image-text-corner">
-                <h3 className="corner-title">{imageDescriptions[0].title}</h3>
-                <p className="corner-description">{imageDescriptions[0].description}</p>
+              <div className="image-text-below">
+                <h3 className="below-title">{imageDescriptions[0].title}</h3>
+                <p className="below-description">{imageDescriptions[0].description}</p>
               </div>
             </div>
             
@@ -191,9 +191,9 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
-              <div className="image-text-corner">
-                <h3 className="corner-title">{imageDescriptions[1].title}</h3>
-                <p className="corner-description">{imageDescriptions[1].description}</p>
+              <div className="image-text-below">
+                <h3 className="below-title">{imageDescriptions[1].title}</h3>
+                <p className="below-description">{imageDescriptions[1].description}</p>
               </div>
             </div>
             
@@ -210,9 +210,9 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
-              <div className="image-text-corner">
-                <h3 className="corner-title">{imageDescriptions[2].title}</h3>
-                <p className="corner-description">{imageDescriptions[2].description}</p>
+              <div className="image-text-below">
+                <h3 className="below-title">{imageDescriptions[2].title}</h3>
+                <p className="below-description">{imageDescriptions[2].description}</p>
               </div>
             </div>
             
@@ -229,9 +229,9 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
-              <div className="image-text-corner">
-                <h3 className="corner-title">{imageDescriptions[3].title}</h3>
-                <p className="corner-description">{imageDescriptions[3].description}</p>
+              <div className="image-text-below">
+                <h3 className="below-title">{imageDescriptions[3].title}</h3>
+                <p className="below-description">{imageDescriptions[3].description}</p>
               </div>
             </div>
             
@@ -248,9 +248,9 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
-              <div className="image-text-corner">
-                <h3 className="corner-title">{imageDescriptions[4].title}</h3>
-                <p className="corner-description">{imageDescriptions[4].description}</p>
+              <div className="image-text-below">
+                <h3 className="below-title">{imageDescriptions[4].title}</h3>
+                <p className="below-description">{imageDescriptions[4].description}</p>
               </div>
             </div>
             
@@ -267,9 +267,9 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
-              <div className="image-text-corner">
-                <h3 className="corner-title">{imageDescriptions[5].title}</h3>
-                <p className="corner-description">{imageDescriptions[5].description}</p>
+              <div className="image-text-below">
+                <h3 className="below-title">{imageDescriptions[5].title}</h3>
+                <p className="below-description">{imageDescriptions[5].description}</p>
               </div>
             </div>
           </div>

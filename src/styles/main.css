@@ -361,7 +361,7 @@ body {
   background: #F7FAFC;
   overflow: hidden;
   position: relative;
-  min-height: 500px;
+  min-height: 600px;
 }
 
 .moving-images-container {
@@ -384,6 +384,8 @@ body {
 .image-item {
   position: relative;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .scroll-image {
@@ -456,32 +458,30 @@ body {
   transform: scale(1.05);
 }
 
-/* Corner text overlay styles */
-.image-text-corner {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 12px 16px;
-  border-radius: 8px;
-  backdrop-filter: blur(10px);
-  max-width: 200px;
-  z-index: 5;
+/* Text below images styles */
+.image-text-below {
+  padding: 1rem;
+  background: white;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin-top: -12px;
+  z-index: 10;
+  position: relative;
 }
 
-.corner-title {
-  font-size: 14px;
+.below-title {
+  font-size: 1.2rem;
   font-weight: 700;
-  margin-bottom: 4px;
-  color: #4FD1C7;
+  margin-bottom: 0.5rem;
+  color: #2D3748;
   line-height: 1.2;
 }
 
-.corner-description {
-  font-size: 11px;
-  line-height: 1.3;
-  color: rgba(255, 255, 255, 0.9);
+.below-description {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #4A5568;
   font-weight: 400;
 }
 
@@ -520,6 +520,8 @@ body {
     opacity: 1;
   }
 }
+
+/* ... keep existing code (Animated Image Columns Section styles) the same ... */
 
 /* Animated Image Columns Section */
 .animated-columns-section {
@@ -630,6 +632,19 @@ body {
     height: 250px;
   }
   
+  .image-text-below {
+    width: 350px;
+    padding: 0.8rem;
+  }
+  
+  .below-title {
+    font-size: 1.1rem;
+  }
+  
+  .below-description {
+    font-size: 0.85rem;
+  }
+  
   .health-badge {
     bottom: 10px;
     left: 10px;
@@ -661,21 +676,6 @@ body {
 
   .pillars-tabs {
     justify-content: center;
-  }
-
-  .image-text-corner {
-    top: 10px;
-    right: 10px;
-    padding: 10px 12px;
-    max-width: 180px;
-  }
-
-  .corner-title {
-    font-size: 13px;
-  }
-
-  .corner-description {
-    font-size: 10px;
   }
 }
 
@@ -740,6 +740,19 @@ body {
     height: 200px;
   }
   
+  .image-text-below {
+    width: 300px;
+    padding: 0.7rem;
+  }
+  
+  .below-title {
+    font-size: 1rem;
+  }
+  
+  .below-description {
+    font-size: 0.8rem;
+  }
+  
   .health-badge {
     bottom: 8px;
     left: 8px;
@@ -782,21 +795,6 @@ body {
   .section-title {
     font-size: 2rem;
   }
-
-  .image-text-corner {
-    top: 8px;
-    right: 8px;
-    padding: 8px 10px;
-    max-width: 160px;
-  }
-
-  .corner-title {
-    font-size: 12px;
-  }
-
-  .corner-description {
-    font-size: 9px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -819,6 +817,19 @@ body {
   .scroll-image {
     width: 250px;
     height: 160px;
+  }
+  
+  .image-text-below {
+    width: 250px;
+    padding: 0.6rem;
+  }
+  
+  .below-title {
+    font-size: 0.9rem;
+  }
+  
+  .below-description {
+    font-size: 0.75rem;
   }
   
   .health-badge {
@@ -860,21 +871,6 @@ body {
   .pillar-tab {
     padding: 0.5rem 1rem;
     font-size: 0.8rem;
-  }
-
-  .image-text-corner {
-    top: 6px;
-    right: 6px;
-    padding: 6px 8px;
-    max-width: 140px;
-  }
-
-  .corner-title {
-    font-size: 11px;
-  }
-
-  .corner-description {
-    font-size: 8px;
   }
 }
 
