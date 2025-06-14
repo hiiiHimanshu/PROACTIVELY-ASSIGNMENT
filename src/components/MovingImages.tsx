@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const MovingImages = () => {
@@ -254,6 +253,18 @@ const MovingImages = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      
+      {/* Text section below the moving images */}
+      <div className="container">
+        <div className="text-center py-16">
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">
+            Personalized care
+          </h2>
+          <p className="text-xl text-teal-600 font-medium">
+            for better health
+          </p>
         </div>
       </div>
     </section>
