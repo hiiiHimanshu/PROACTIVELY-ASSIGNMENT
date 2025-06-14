@@ -16,52 +16,52 @@ const AnimatedImageColumns = () => {
   ];
 
   return (
-    <section className="animated-columns-section">
-      <div className="animated-columns-container">
-        <div className="image-column column-1">
+    <section className="animated-columns-section-left">
+      <div className="animated-columns-container-left">
+        <div className="image-column-small column-1">
           <div className="column-track track-down">
             {/* First set of images */}
             {column1Images.map((src, index) => (
-              <div key={`col1-${index}`} className="column-image-item">
+              <div key={`col1-${index}`} className="column-image-item-small">
                 <img 
                   src={src} 
                   alt={`Lifestyle image ${index + 1}`}
-                  className="column-image"
+                  className="column-image-small"
                 />
               </div>
             ))}
             {/* Duplicate for seamless loop */}
             {column1Images.map((src, index) => (
-              <div key={`col1-dup-${index}`} className="column-image-item">
+              <div key={`col1-dup-${index}`} className="column-image-item-small">
                 <img 
                   src={src} 
                   alt={`Lifestyle image ${index + 1}`}
-                  className="column-image"
+                  className="column-image-small"
                 />
               </div>
             ))}
           </div>
         </div>
 
-        <div className="image-column column-2">
+        <div className="image-column-small column-2">
           <div className="column-track track-up">
             {/* First set of images */}
             {column2Images.map((src, index) => (
-              <div key={`col2-${index}`} className="column-image-item">
+              <div key={`col2-${index}`} className="column-image-item-small">
                 <img 
                   src={src} 
                   alt={`Lifestyle image ${index + 1}`}
-                  className="column-image"
+                  className="column-image-small"
                 />
               </div>
             ))}
             {/* Duplicate for seamless loop */}
             {column2Images.map((src, index) => (
-              <div key={`col2-dup-${index}`} className="column-image-item">
+              <div key={`col2-dup-${index}`} className="column-image-item-small">
                 <img 
                   src={src} 
                   alt={`Lifestyle image ${index + 1}`}
-                  className="column-image"
+                  className="column-image-small"
                 />
               </div>
             ))}
