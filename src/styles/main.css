@@ -356,9 +356,11 @@ body {
 
 /* Moving Images Section */
 .moving-images-section {
-  padding: 3rem 0;
+  padding: 5rem 0;
   background: #F7FAFC;
   overflow: hidden;
+  position: relative;
+  min-height: 500px;
 }
 
 .moving-images-container {
@@ -384,8 +386,8 @@ body {
 }
 
 .scroll-image {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -575,8 +577,8 @@ body {
   }
   
   .scroll-image {
-    width: 250px;
-    height: 160px;
+    width: 350px;
+    height: 250px;
   }
   
   .health-badge {
@@ -661,8 +663,8 @@ body {
   }
   
   .scroll-image {
-    width: 200px;
-    height: 130px;
+    width: 300px;
+    height: 200px;
   }
   
   .health-badge {
@@ -718,8 +720,8 @@ body {
   }
   
   .scroll-image {
-    width: 150px;
-    height: 100px;
+    width: 250px;
+    height: 160px;
   }
   
   .health-badge {
