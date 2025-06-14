@@ -17,18 +17,6 @@ const AnimatedImageColumns = () => {
 
   return (
     <section className="animated-columns-section-left">
-      {/* Overlapping text positioned over the animated columns */}
-      <div className="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
-        <div className="max-w-sm bg-white/90 backdrop-blur-sm p-6 rounded-lg shadow-lg">
-          <h2 className="text-3xl font-bold text-gray-800 mb-3">
-            Personalized care
-          </h2>
-          <p className="text-lg text-teal-600 font-medium">
-            for better health
-          </p>
-        </div>
-      </div>
-
       <div className="animated-columns-container-left">
         <div className="image-column-small column-1">
           <div className="column-track track-down">
