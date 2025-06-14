@@ -11,6 +11,33 @@ const MovingImages = () => {
     '/lovable-uploads/f2d12df7-bbc3-4938-aa93-afc0d31dc94c.png'  // Feeling better
   ];
 
+  const imageDescriptions = [
+    {
+      title: "Nutrition",
+      description: "Evidence supports the use of a whole food, plant-predominant diet to prevent, treat and reverse chronic illness."
+    },
+    {
+      title: "Nutrition", 
+      description: "Evidence supports the use of a whole food, plant-predominant diet to prevent, treat and reverse chronic illness."
+    },
+    {
+      title: "Restorative sleep",
+      description: "Consistent, quality sleep is essential for cognitive function and physical health."
+    },
+    {
+      title: "Restorative sleep",
+      description: "Consistent, quality sleep is essential for cognitive function and physical health."
+    },
+    {
+      title: "Stress management",
+      description: "Effective stress management techniques are crucial for mental well-being and overall health."
+    },
+    {
+      title: "Substance abuse",
+      description: "Avoiding tobacco, limiting alcohol use, and abstaining from harmful substances are vital for long-term health."
+    }
+  ];
+
   return (
     <section className="moving-images-section">
       {/* Moving images container */}
@@ -30,6 +57,10 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
+              <div className="image-text-content">
+                <h3 className="image-title">{imageDescriptions[0].title}</h3>
+                <p className="image-description">{imageDescriptions[0].description}</p>
+              </div>
             </div>
             
             <div className="image-item">
@@ -44,6 +75,10 @@ const MovingImages = () => {
                   alt="Health metric badge" 
                   className="badge-overlay"
                 />
+              </div>
+              <div className="image-text-content">
+                <h3 className="image-title">{imageDescriptions[1].title}</h3>
+                <p className="image-description">{imageDescriptions[1].description}</p>
               </div>
             </div>
             
@@ -60,6 +95,10 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
+              <div className="image-text-content">
+                <h3 className="image-title">{imageDescriptions[2].title}</h3>
+                <p className="image-description">{imageDescriptions[2].description}</p>
+              </div>
             </div>
             
             <div className="image-item">
@@ -74,6 +113,10 @@ const MovingImages = () => {
                   alt="Health metric badge" 
                   className="badge-overlay"
                 />
+              </div>
+              <div className="image-text-content">
+                <h3 className="image-title">{imageDescriptions[3].title}</h3>
+                <p className="image-description">{imageDescriptions[3].description}</p>
               </div>
             </div>
             
@@ -90,6 +133,10 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
+              <div className="image-text-content">
+                <h3 className="image-title">{imageDescriptions[4].title}</h3>
+                <p className="image-description">{imageDescriptions[4].description}</p>
+              </div>
             </div>
             
             <div className="image-item">
@@ -104,6 +151,10 @@ const MovingImages = () => {
                   alt="Health metric badge" 
                   className="badge-overlay"
                 />
+              </div>
+              <div className="image-text-content">
+                <h3 className="image-title">{imageDescriptions[5].title}</h3>
+                <p className="image-description">{imageDescriptions[5].description}</p>
               </div>
             </div>
 
@@ -121,6 +172,10 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
+              <div className="image-text-content">
+                <h3 className="image-title">{imageDescriptions[0].title}</h3>
+                <p className="image-description">{imageDescriptions[0].description}</p>
+              </div>
             </div>
             
             <div className="image-item">
@@ -135,6 +190,10 @@ const MovingImages = () => {
                   alt="Health metric badge" 
                   className="badge-overlay"
                 />
+              </div>
+              <div className="image-text-content">
+                <h3 className="image-title">{imageDescriptions[1].title}</h3>
+                <p className="image-description">{imageDescriptions[1].description}</p>
               </div>
             </div>
             
@@ -151,6 +210,10 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
+              <div className="image-text-content">
+                <h3 className="image-title">{imageDescriptions[2].title}</h3>
+                <p className="image-description">{imageDescriptions[2].description}</p>
+              </div>
             </div>
             
             <div className="image-item">
@@ -165,6 +228,10 @@ const MovingImages = () => {
                   alt="Health metric badge" 
                   className="badge-overlay"
                 />
+              </div>
+              <div className="image-text-content">
+                <h3 className="image-title">{imageDescriptions[3].title}</h3>
+                <p className="image-description">{imageDescriptions[3].description}</p>
               </div>
             </div>
             
@@ -181,6 +248,10 @@ const MovingImages = () => {
                   className="badge-overlay"
                 />
               </div>
+              <div className="image-text-content">
+                <h3 className="image-title">{imageDescriptions[4].title}</h3>
+                <p className="image-description">{imageDescriptions[4].description}</p>
+              </div>
             </div>
             
             <div className="image-item">
@@ -195,6 +266,10 @@ const MovingImages = () => {
                   alt="Health metric badge" 
                   className="badge-overlay"
                 />
+              </div>
+              <div className="image-text-content">
+                <h3 className="image-title">{imageDescriptions[5].title}</h3>
+                <p className="image-description">{imageDescriptions[5].description}</p>
               </div>
             </div>
           </div>
